@@ -40,5 +40,12 @@
         <url-pattern>/deleteCookies</url-pattern>
     </servlet-mapping>
 
-
+    <servlet>
+        <servlet-name>LibraryServlet</servlet-name>
+        <servlet-class>com.example.HelloServletJSP.LibraryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LibraryServlet</servlet-name>
+        <url-pattern>/library</url-pattern>
+    </servlet-mapping>
 </web-app>
